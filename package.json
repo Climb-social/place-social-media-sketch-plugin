@@ -4,9 +4,6 @@
   "private": true,
   "description": "Sketch plugin to place social media from Climb.social",
   "main": "index.js",
-  "dependencies": {
-    "cz-conventional-changelog": "^1.1.4"
-  },
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.4"
   },

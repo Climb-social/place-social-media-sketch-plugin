@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Climb-social/place-social-media-sketch-plugin",
   "commands" : [
     {
-      "script" : "script.cocoascript",
+      "script" : "place-social-media.js",
       "handler" : "onRun",
       "shortcut" : "cmd ctrl h",
       "name" : "Place social media",
@@ -20,7 +20,7 @@
     ]
   },
   "identifier" : "social.climb.sketch.place-social-media",
-  "version" : "1.0.0", 
+  "version" : "1.0.0",
   "authorEmail" : "michele@climb.social",
   "compatibleVersion" : "3.1"
 }
