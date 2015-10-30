@@ -1,0 +1,35 @@
+{
+  "name": "place-social-media-sketch-plugin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sketch plugin to place social media from Climb.social",
+  "main": "index.js",
+  "dependencies": {
+    "cz-conventional-changelog": "^1.1.4"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^1.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Climb-social/place-social-media-sketch-plugin.git"
+  },
+  "keywords": [
+    "Sketch",
+    "Climb.social"
+  ],
+  "author": "Michele Memoli <michele@100shapes.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Climb-social/place-social-media-sketch-plugin/issues"
+  },
+  "homepage": "https://github.com/Climb-social/place-social-media-sketch-plugin#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
