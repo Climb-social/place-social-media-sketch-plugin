@@ -23,11 +23,11 @@ var onRun = function onRun(context) {
     var getCollectionIdFromUser = function getCollectionIdFromUser() {
         var reason = arguments.length <= 0 || arguments[0] === undefined ? "Enter the Climb ID to retrieve:" : arguments[0];
 
-        var collectionId = [doc askForUserInput:"What is your name?" initialValue:""];
+        var collectionId = [doc askForUserInput:"What is the Climb.social Collection ID?" initialValue:""];
 
         if (collectionId == '') {
             // if user entered nothing
-            reason = "Please specify a Climb ID";
+            reason = "Please specify a Climb.social ID";
             getCollectionIdFromUser(reason);
         } else if (collectionId == null) {
             // if user cancelled box
