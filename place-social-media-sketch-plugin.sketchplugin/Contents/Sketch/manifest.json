@@ -1,16 +1,16 @@
 {
   "name" : "Place social media",
-  "description" : "Plugin to place curated social media from Climb.social collections.",
-  "author" : "Michele Memoli",
+  "description" : "Place curated social media from Climb.social collections.",
+  "author" : "Climb.social",
   "email" : "support@climb.social",
   "homepage": "https://github.com/Climb-social/place-social-media-sketch-plugin",
   "commands" : [
     {
-      "script" : "place-social-media.js",
-      "handler" : "onRun",
+      "name" : "Place social media from Climb.social",
+      "identifier" : "place-social-media",
       "shortcut" : "cmd ctrl h",
-      "name" : "Place social media",
-      "identifier" : "place-social-media-sketch-plugin"
+      "script" : "place-social-media.js",
+      "handler" : "onRun"
     }
   ],
   "menu" : {
