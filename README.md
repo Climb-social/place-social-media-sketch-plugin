@@ -1,6 +1,9 @@
 # place-social-media-sketch-plugin
 Set up your collections on Climb.social. Automatically bring them into Sketch.
 
+## Demo
+![Fetching social media](https://cdn.rawgit.com/Climb-social/place-social-media-sketch-plugin/master/docs/place_social_media_plugin-howtosketch.gif)
+
 ## Installing the plugin
 1. Download and open `place-social-media-master.zip`
 1. Navigate the Sketch menu bar to `Plugins ▸ Reveal Plugins Folder`
